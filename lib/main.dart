@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'features/Home/presentaion/managers/cubits/flashcard_cubit/flashcard_cubit.dart';
 import 'features/Home/presentaion/views/HoemPageView.dart';
- import 'utils/database_helper.dart';
+import 'utils/database_helper.dart';
 
 void main() {
   runApp(const MyApp());

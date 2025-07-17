@@ -39,6 +39,15 @@ class _FlipCardListViewState extends State<FlipCardListView> {
     });
   }
 
+  void _validateCurrentIndex() {
+    if (_currentIndex >= _flashcards.length) {
+      _currentIndex = _flashcards.length - 1;
+    }
+    if (_currentIndex < 0 && _flashcards.isNotEmpty) {
+      _currentIndex = 0;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<FlashcardCubit, FlashcardState>(
@@ -58,6 +67,7 @@ class _FlipCardListViewState extends State<FlipCardListView> {
             );
           }
 
+          _validateCurrentIndex();
           final flashcard = _flashcards[_currentIndex];
 
           return Column(
