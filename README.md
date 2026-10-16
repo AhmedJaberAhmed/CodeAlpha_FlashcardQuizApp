@@ -21,17 +21,21 @@ discovering inspirational quotes.
 
 ## 📸 Project Preview
 
+
+<!-- Flashcard Quiz Project Preview -->
+
+<h2 align="center">📸 Project Preview</h2>
+
 <div align="center">
-
-<a href="1c6b5f23-aa17-4280-836f-522a3f2eec49.png">
-  <img
-    src="1c6b5f23-aa17-4280-836f-522a3f2eec49.png"
-    alt="Flashcard Quiz and Random Quote Generator Preview"
-    width="100%"
-  />
-</a>
-
+  <a href="cfd04149-e361-4614-819e-ec095a25631a.png">
+    <img
+      src="cfd04149-e361-4614-819e-ec095a25631a.png"
+      alt="Flashcard Quiz Flutter App Mockup"
+      width="100%"
+    />
+  </a>
 </div>
+
 
 ---
 
